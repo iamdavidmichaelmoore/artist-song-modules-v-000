@@ -4,6 +4,7 @@ class Artist
 
   include Memorable::InstanceMethods
   extend Memorable::ClassMethods
+  include Paramable
   
   attr_accessor :name
   attr_reader :songs
