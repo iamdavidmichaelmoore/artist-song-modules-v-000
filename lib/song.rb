@@ -16,7 +16,7 @@ class Song
   end
 
   def self.find_by_name(name)
-    super
+    
   end
 
   def artist=(artist)
