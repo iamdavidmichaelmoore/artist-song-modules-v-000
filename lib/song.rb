@@ -11,10 +11,6 @@ class Song
 
   @@songs = []
 
-  def initialize
-
-  end
-
   def self.find_by_name(name)
     
   end
